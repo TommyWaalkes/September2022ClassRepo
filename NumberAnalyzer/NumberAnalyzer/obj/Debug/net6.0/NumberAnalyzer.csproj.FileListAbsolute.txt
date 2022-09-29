@@ -1,0 +1,15 @@
+C:\Users\thomas\Desktop\C# September 2022\NumberAnalyzer\NumberAnalyzer\bin\Debug\net6.0\NumberAnalyzer.exe
+C:\Users\thomas\Desktop\C# September 2022\NumberAnalyzer\NumberAnalyzer\bin\Debug\net6.0\NumberAnalyzer.deps.json
+C:\Users\thomas\Desktop\C# September 2022\NumberAnalyzer\NumberAnalyzer\bin\Debug\net6.0\NumberAnalyzer.runtimeconfig.json
+C:\Users\thomas\Desktop\C# September 2022\NumberAnalyzer\NumberAnalyzer\bin\Debug\net6.0\NumberAnalyzer.dll
+C:\Users\thomas\Desktop\C# September 2022\NumberAnalyzer\NumberAnalyzer\bin\Debug\net6.0\NumberAnalyzer.pdb
+C:\Users\thomas\Desktop\C# September 2022\NumberAnalyzer\NumberAnalyzer\obj\Debug\net6.0\NumberAnalyzer.csproj.AssemblyReference.cache
+C:\Users\thomas\Desktop\C# September 2022\NumberAnalyzer\NumberAnalyzer\obj\Debug\net6.0\NumberAnalyzer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\thomas\Desktop\C# September 2022\NumberAnalyzer\NumberAnalyzer\obj\Debug\net6.0\NumberAnalyzer.AssemblyInfoInputs.cache
+C:\Users\thomas\Desktop\C# September 2022\NumberAnalyzer\NumberAnalyzer\obj\Debug\net6.0\NumberAnalyzer.AssemblyInfo.cs
+C:\Users\thomas\Desktop\C# September 2022\NumberAnalyzer\NumberAnalyzer\obj\Debug\net6.0\NumberAnalyzer.csproj.CoreCompileInputs.cache
+C:\Users\thomas\Desktop\C# September 2022\NumberAnalyzer\NumberAnalyzer\obj\Debug\net6.0\NumberAnalyzer.dll
+C:\Users\thomas\Desktop\C# September 2022\NumberAnalyzer\NumberAnalyzer\obj\Debug\net6.0\refint\NumberAnalyzer.dll
+C:\Users\thomas\Desktop\C# September 2022\NumberAnalyzer\NumberAnalyzer\obj\Debug\net6.0\NumberAnalyzer.pdb
+C:\Users\thomas\Desktop\C# September 2022\NumberAnalyzer\NumberAnalyzer\obj\Debug\net6.0\NumberAnalyzer.genruntimeconfig.cache
+C:\Users\thomas\Desktop\C# September 2022\NumberAnalyzer\NumberAnalyzer\obj\Debug\net6.0\ref\NumberAnalyzer.dll

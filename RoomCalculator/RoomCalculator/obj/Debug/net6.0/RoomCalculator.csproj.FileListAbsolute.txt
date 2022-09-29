@@ -1,0 +1,15 @@
+C:\Users\thomas\Desktop\C# September 2022\RoomCalculator\RoomCalculator\bin\Debug\net6.0\RoomCalculator.exe
+C:\Users\thomas\Desktop\C# September 2022\RoomCalculator\RoomCalculator\bin\Debug\net6.0\RoomCalculator.deps.json
+C:\Users\thomas\Desktop\C# September 2022\RoomCalculator\RoomCalculator\bin\Debug\net6.0\RoomCalculator.runtimeconfig.json
+C:\Users\thomas\Desktop\C# September 2022\RoomCalculator\RoomCalculator\bin\Debug\net6.0\RoomCalculator.dll
+C:\Users\thomas\Desktop\C# September 2022\RoomCalculator\RoomCalculator\bin\Debug\net6.0\RoomCalculator.pdb
+C:\Users\thomas\Desktop\C# September 2022\RoomCalculator\RoomCalculator\obj\Debug\net6.0\RoomCalculator.csproj.AssemblyReference.cache
+C:\Users\thomas\Desktop\C# September 2022\RoomCalculator\RoomCalculator\obj\Debug\net6.0\RoomCalculator.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\thomas\Desktop\C# September 2022\RoomCalculator\RoomCalculator\obj\Debug\net6.0\RoomCalculator.AssemblyInfoInputs.cache
+C:\Users\thomas\Desktop\C# September 2022\RoomCalculator\RoomCalculator\obj\Debug\net6.0\RoomCalculator.AssemblyInfo.cs
+C:\Users\thomas\Desktop\C# September 2022\RoomCalculator\RoomCalculator\obj\Debug\net6.0\RoomCalculator.csproj.CoreCompileInputs.cache
+C:\Users\thomas\Desktop\C# September 2022\RoomCalculator\RoomCalculator\obj\Debug\net6.0\RoomCalculator.dll
+C:\Users\thomas\Desktop\C# September 2022\RoomCalculator\RoomCalculator\obj\Debug\net6.0\refint\RoomCalculator.dll
+C:\Users\thomas\Desktop\C# September 2022\RoomCalculator\RoomCalculator\obj\Debug\net6.0\RoomCalculator.pdb
+C:\Users\thomas\Desktop\C# September 2022\RoomCalculator\RoomCalculator\obj\Debug\net6.0\RoomCalculator.genruntimeconfig.cache
+C:\Users\thomas\Desktop\C# September 2022\RoomCalculator\RoomCalculator\obj\Debug\net6.0\ref\RoomCalculator.dll

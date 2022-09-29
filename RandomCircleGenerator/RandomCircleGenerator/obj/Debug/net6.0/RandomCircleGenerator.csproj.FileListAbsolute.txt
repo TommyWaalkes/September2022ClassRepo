@@ -1,0 +1,15 @@
+C:\Users\thomas\Desktop\C# September 2022\RandomCircleGenerator\RandomCircleGenerator\bin\Debug\net6.0\RandomCircleGenerator.exe
+C:\Users\thomas\Desktop\C# September 2022\RandomCircleGenerator\RandomCircleGenerator\bin\Debug\net6.0\RandomCircleGenerator.deps.json
+C:\Users\thomas\Desktop\C# September 2022\RandomCircleGenerator\RandomCircleGenerator\bin\Debug\net6.0\RandomCircleGenerator.runtimeconfig.json
+C:\Users\thomas\Desktop\C# September 2022\RandomCircleGenerator\RandomCircleGenerator\bin\Debug\net6.0\RandomCircleGenerator.dll
+C:\Users\thomas\Desktop\C# September 2022\RandomCircleGenerator\RandomCircleGenerator\bin\Debug\net6.0\RandomCircleGenerator.pdb
+C:\Users\thomas\Desktop\C# September 2022\RandomCircleGenerator\RandomCircleGenerator\obj\Debug\net6.0\RandomCircleGenerator.csproj.AssemblyReference.cache
+C:\Users\thomas\Desktop\C# September 2022\RandomCircleGenerator\RandomCircleGenerator\obj\Debug\net6.0\RandomCircleGenerator.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\thomas\Desktop\C# September 2022\RandomCircleGenerator\RandomCircleGenerator\obj\Debug\net6.0\RandomCircleGenerator.AssemblyInfoInputs.cache
+C:\Users\thomas\Desktop\C# September 2022\RandomCircleGenerator\RandomCircleGenerator\obj\Debug\net6.0\RandomCircleGenerator.AssemblyInfo.cs
+C:\Users\thomas\Desktop\C# September 2022\RandomCircleGenerator\RandomCircleGenerator\obj\Debug\net6.0\RandomCircleGenerator.csproj.CoreCompileInputs.cache
+C:\Users\thomas\Desktop\C# September 2022\RandomCircleGenerator\RandomCircleGenerator\obj\Debug\net6.0\RandomCircleGenerator.dll
+C:\Users\thomas\Desktop\C# September 2022\RandomCircleGenerator\RandomCircleGenerator\obj\Debug\net6.0\refint\RandomCircleGenerator.dll
+C:\Users\thomas\Desktop\C# September 2022\RandomCircleGenerator\RandomCircleGenerator\obj\Debug\net6.0\RandomCircleGenerator.pdb
+C:\Users\thomas\Desktop\C# September 2022\RandomCircleGenerator\RandomCircleGenerator\obj\Debug\net6.0\RandomCircleGenerator.genruntimeconfig.cache
+C:\Users\thomas\Desktop\C# September 2022\RandomCircleGenerator\RandomCircleGenerator\obj\Debug\net6.0\ref\RandomCircleGenerator.dll
