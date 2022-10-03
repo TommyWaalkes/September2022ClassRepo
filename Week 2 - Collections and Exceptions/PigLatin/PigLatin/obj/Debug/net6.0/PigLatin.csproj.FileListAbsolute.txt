@@ -1,0 +1,15 @@
+C:\Users\Tommy\Desktop\Class Repo\September2022ClassRepo\Week 2 - Collections and Exceptions\PigLatin\PigLatin\obj\Debug\net6.0\PigLatin.csproj.AssemblyReference.cache
+C:\Users\Tommy\Desktop\Class Repo\September2022ClassRepo\Week 2 - Collections and Exceptions\PigLatin\PigLatin\obj\Debug\net6.0\PigLatin.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Tommy\Desktop\Class Repo\September2022ClassRepo\Week 2 - Collections and Exceptions\PigLatin\PigLatin\obj\Debug\net6.0\PigLatin.AssemblyInfoInputs.cache
+C:\Users\Tommy\Desktop\Class Repo\September2022ClassRepo\Week 2 - Collections and Exceptions\PigLatin\PigLatin\obj\Debug\net6.0\PigLatin.AssemblyInfo.cs
+C:\Users\Tommy\Desktop\Class Repo\September2022ClassRepo\Week 2 - Collections and Exceptions\PigLatin\PigLatin\obj\Debug\net6.0\PigLatin.csproj.CoreCompileInputs.cache
+C:\Users\Tommy\Desktop\Class Repo\September2022ClassRepo\Week 2 - Collections and Exceptions\PigLatin\PigLatin\bin\Debug\net6.0\PigLatin.exe
+C:\Users\Tommy\Desktop\Class Repo\September2022ClassRepo\Week 2 - Collections and Exceptions\PigLatin\PigLatin\bin\Debug\net6.0\PigLatin.deps.json
+C:\Users\Tommy\Desktop\Class Repo\September2022ClassRepo\Week 2 - Collections and Exceptions\PigLatin\PigLatin\bin\Debug\net6.0\PigLatin.runtimeconfig.json
+C:\Users\Tommy\Desktop\Class Repo\September2022ClassRepo\Week 2 - Collections and Exceptions\PigLatin\PigLatin\bin\Debug\net6.0\PigLatin.dll
+C:\Users\Tommy\Desktop\Class Repo\September2022ClassRepo\Week 2 - Collections and Exceptions\PigLatin\PigLatin\bin\Debug\net6.0\PigLatin.pdb
+C:\Users\Tommy\Desktop\Class Repo\September2022ClassRepo\Week 2 - Collections and Exceptions\PigLatin\PigLatin\obj\Debug\net6.0\PigLatin.dll
+C:\Users\Tommy\Desktop\Class Repo\September2022ClassRepo\Week 2 - Collections and Exceptions\PigLatin\PigLatin\obj\Debug\net6.0\refint\PigLatin.dll
+C:\Users\Tommy\Desktop\Class Repo\September2022ClassRepo\Week 2 - Collections and Exceptions\PigLatin\PigLatin\obj\Debug\net6.0\PigLatin.pdb
+C:\Users\Tommy\Desktop\Class Repo\September2022ClassRepo\Week 2 - Collections and Exceptions\PigLatin\PigLatin\obj\Debug\net6.0\PigLatin.genruntimeconfig.cache
+C:\Users\Tommy\Desktop\Class Repo\September2022ClassRepo\Week 2 - Collections and Exceptions\PigLatin\PigLatin\obj\Debug\net6.0\ref\PigLatin.dll
