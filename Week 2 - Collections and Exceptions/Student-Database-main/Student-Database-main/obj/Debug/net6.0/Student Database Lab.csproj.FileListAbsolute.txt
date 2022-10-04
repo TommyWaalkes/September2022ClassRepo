@@ -1,0 +1,30 @@
+C:\Users\rober\Documents\C# Class\Student Database Lab\bin\Debug\net6.0\Student Database Lab.exe
+C:\Users\rober\Documents\C# Class\Student Database Lab\bin\Debug\net6.0\Student Database Lab.deps.json
+C:\Users\rober\Documents\C# Class\Student Database Lab\bin\Debug\net6.0\Student Database Lab.runtimeconfig.json
+C:\Users\rober\Documents\C# Class\Student Database Lab\bin\Debug\net6.0\Student Database Lab.dll
+C:\Users\rober\Documents\C# Class\Student Database Lab\bin\Debug\net6.0\Student Database Lab.pdb
+C:\Users\rober\Documents\C# Class\Student Database Lab\obj\Debug\net6.0\Student Database Lab.csproj.AssemblyReference.cache
+C:\Users\rober\Documents\C# Class\Student Database Lab\obj\Debug\net6.0\Student Database Lab.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rober\Documents\C# Class\Student Database Lab\obj\Debug\net6.0\Student Database Lab.AssemblyInfoInputs.cache
+C:\Users\rober\Documents\C# Class\Student Database Lab\obj\Debug\net6.0\Student Database Lab.AssemblyInfo.cs
+C:\Users\rober\Documents\C# Class\Student Database Lab\obj\Debug\net6.0\Student Database Lab.csproj.CoreCompileInputs.cache
+C:\Users\rober\Documents\C# Class\Student Database Lab\obj\Debug\net6.0\Student Database Lab.dll
+C:\Users\rober\Documents\C# Class\Student Database Lab\obj\Debug\net6.0\refint\Student Database Lab.dll
+C:\Users\rober\Documents\C# Class\Student Database Lab\obj\Debug\net6.0\Student Database Lab.pdb
+C:\Users\rober\Documents\C# Class\Student Database Lab\obj\Debug\net6.0\Student Database Lab.genruntimeconfig.cache
+C:\Users\rober\Documents\C# Class\Student Database Lab\obj\Debug\net6.0\ref\Student Database Lab.dll
+C:\Users\Tommy\Desktop\Class Repo\September2022ClassRepo\Week 2 - Collections and Exceptions\Student-Database-main\Student-Database-main\bin\Debug\net6.0\Student Database Lab.exe
+C:\Users\Tommy\Desktop\Class Repo\September2022ClassRepo\Week 2 - Collections and Exceptions\Student-Database-main\Student-Database-main\bin\Debug\net6.0\Student Database Lab.deps.json
+C:\Users\Tommy\Desktop\Class Repo\September2022ClassRepo\Week 2 - Collections and Exceptions\Student-Database-main\Student-Database-main\bin\Debug\net6.0\Student Database Lab.runtimeconfig.json
+C:\Users\Tommy\Desktop\Class Repo\September2022ClassRepo\Week 2 - Collections and Exceptions\Student-Database-main\Student-Database-main\bin\Debug\net6.0\Student Database Lab.dll
+C:\Users\Tommy\Desktop\Class Repo\September2022ClassRepo\Week 2 - Collections and Exceptions\Student-Database-main\Student-Database-main\bin\Debug\net6.0\Student Database Lab.pdb
+C:\Users\Tommy\Desktop\Class Repo\September2022ClassRepo\Week 2 - Collections and Exceptions\Student-Database-main\Student-Database-main\obj\Debug\net6.0\Student Database Lab.csproj.AssemblyReference.cache
+C:\Users\Tommy\Desktop\Class Repo\September2022ClassRepo\Week 2 - Collections and Exceptions\Student-Database-main\Student-Database-main\obj\Debug\net6.0\Student Database Lab.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Tommy\Desktop\Class Repo\September2022ClassRepo\Week 2 - Collections and Exceptions\Student-Database-main\Student-Database-main\obj\Debug\net6.0\Student Database Lab.AssemblyInfoInputs.cache
+C:\Users\Tommy\Desktop\Class Repo\September2022ClassRepo\Week 2 - Collections and Exceptions\Student-Database-main\Student-Database-main\obj\Debug\net6.0\Student Database Lab.AssemblyInfo.cs
+C:\Users\Tommy\Desktop\Class Repo\September2022ClassRepo\Week 2 - Collections and Exceptions\Student-Database-main\Student-Database-main\obj\Debug\net6.0\Student Database Lab.csproj.CoreCompileInputs.cache
+C:\Users\Tommy\Desktop\Class Repo\September2022ClassRepo\Week 2 - Collections and Exceptions\Student-Database-main\Student-Database-main\obj\Debug\net6.0\Student Database Lab.dll
+C:\Users\Tommy\Desktop\Class Repo\September2022ClassRepo\Week 2 - Collections and Exceptions\Student-Database-main\Student-Database-main\obj\Debug\net6.0\refint\Student Database Lab.dll
+C:\Users\Tommy\Desktop\Class Repo\September2022ClassRepo\Week 2 - Collections and Exceptions\Student-Database-main\Student-Database-main\obj\Debug\net6.0\Student Database Lab.pdb
+C:\Users\Tommy\Desktop\Class Repo\September2022ClassRepo\Week 2 - Collections and Exceptions\Student-Database-main\Student-Database-main\obj\Debug\net6.0\Student Database Lab.genruntimeconfig.cache
+C:\Users\Tommy\Desktop\Class Repo\September2022ClassRepo\Week 2 - Collections and Exceptions\Student-Database-main\Student-Database-main\obj\Debug\net6.0\ref\Student Database Lab.dll

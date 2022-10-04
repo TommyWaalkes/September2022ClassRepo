@@ -6,6 +6,7 @@
         //As we learn more and more, the job of main shrinks to delegating calls to methods and our continue loop
         static void Main(string[] args)
         {
+            List<int> nums = new List<int>();
             bool keepGoing = true;
 
             while (keepGoing == true)
