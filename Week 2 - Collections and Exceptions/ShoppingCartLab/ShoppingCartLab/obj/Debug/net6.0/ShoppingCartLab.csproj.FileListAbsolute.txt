@@ -1,0 +1,15 @@
+C:\Users\Tommy\Desktop\Class Repo\September2022ClassRepo\Week 2 - Collections and Exceptions\ShoppingCartLab\ShoppingCartLab\bin\Debug\net6.0\ShoppingCartLab.exe
+C:\Users\Tommy\Desktop\Class Repo\September2022ClassRepo\Week 2 - Collections and Exceptions\ShoppingCartLab\ShoppingCartLab\bin\Debug\net6.0\ShoppingCartLab.deps.json
+C:\Users\Tommy\Desktop\Class Repo\September2022ClassRepo\Week 2 - Collections and Exceptions\ShoppingCartLab\ShoppingCartLab\bin\Debug\net6.0\ShoppingCartLab.runtimeconfig.json
+C:\Users\Tommy\Desktop\Class Repo\September2022ClassRepo\Week 2 - Collections and Exceptions\ShoppingCartLab\ShoppingCartLab\bin\Debug\net6.0\ShoppingCartLab.dll
+C:\Users\Tommy\Desktop\Class Repo\September2022ClassRepo\Week 2 - Collections and Exceptions\ShoppingCartLab\ShoppingCartLab\bin\Debug\net6.0\ShoppingCartLab.pdb
+C:\Users\Tommy\Desktop\Class Repo\September2022ClassRepo\Week 2 - Collections and Exceptions\ShoppingCartLab\ShoppingCartLab\obj\Debug\net6.0\ShoppingCartLab.csproj.AssemblyReference.cache
+C:\Users\Tommy\Desktop\Class Repo\September2022ClassRepo\Week 2 - Collections and Exceptions\ShoppingCartLab\ShoppingCartLab\obj\Debug\net6.0\ShoppingCartLab.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Tommy\Desktop\Class Repo\September2022ClassRepo\Week 2 - Collections and Exceptions\ShoppingCartLab\ShoppingCartLab\obj\Debug\net6.0\ShoppingCartLab.AssemblyInfoInputs.cache
+C:\Users\Tommy\Desktop\Class Repo\September2022ClassRepo\Week 2 - Collections and Exceptions\ShoppingCartLab\ShoppingCartLab\obj\Debug\net6.0\ShoppingCartLab.AssemblyInfo.cs
+C:\Users\Tommy\Desktop\Class Repo\September2022ClassRepo\Week 2 - Collections and Exceptions\ShoppingCartLab\ShoppingCartLab\obj\Debug\net6.0\ShoppingCartLab.csproj.CoreCompileInputs.cache
+C:\Users\Tommy\Desktop\Class Repo\September2022ClassRepo\Week 2 - Collections and Exceptions\ShoppingCartLab\ShoppingCartLab\obj\Debug\net6.0\ShoppingCartLab.dll
+C:\Users\Tommy\Desktop\Class Repo\September2022ClassRepo\Week 2 - Collections and Exceptions\ShoppingCartLab\ShoppingCartLab\obj\Debug\net6.0\refint\ShoppingCartLab.dll
+C:\Users\Tommy\Desktop\Class Repo\September2022ClassRepo\Week 2 - Collections and Exceptions\ShoppingCartLab\ShoppingCartLab\obj\Debug\net6.0\ShoppingCartLab.pdb
+C:\Users\Tommy\Desktop\Class Repo\September2022ClassRepo\Week 2 - Collections and Exceptions\ShoppingCartLab\ShoppingCartLab\obj\Debug\net6.0\ShoppingCartLab.genruntimeconfig.cache
+C:\Users\Tommy\Desktop\Class Repo\September2022ClassRepo\Week 2 - Collections and Exceptions\ShoppingCartLab\ShoppingCartLab\obj\Debug\net6.0\ref\ShoppingCartLab.dll
