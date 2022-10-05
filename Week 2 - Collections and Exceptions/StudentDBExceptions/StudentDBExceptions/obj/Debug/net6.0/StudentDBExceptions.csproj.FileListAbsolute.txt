@@ -1,0 +1,15 @@
+C:\Users\Tommy\Desktop\Class Repo\September2022ClassRepo\Week 2 - Collections and Exceptions\StudentDBExceptions\StudentDBExceptions\bin\Debug\net6.0\StudentDBExceptions.exe
+C:\Users\Tommy\Desktop\Class Repo\September2022ClassRepo\Week 2 - Collections and Exceptions\StudentDBExceptions\StudentDBExceptions\bin\Debug\net6.0\StudentDBExceptions.deps.json
+C:\Users\Tommy\Desktop\Class Repo\September2022ClassRepo\Week 2 - Collections and Exceptions\StudentDBExceptions\StudentDBExceptions\bin\Debug\net6.0\StudentDBExceptions.runtimeconfig.json
+C:\Users\Tommy\Desktop\Class Repo\September2022ClassRepo\Week 2 - Collections and Exceptions\StudentDBExceptions\StudentDBExceptions\bin\Debug\net6.0\StudentDBExceptions.dll
+C:\Users\Tommy\Desktop\Class Repo\September2022ClassRepo\Week 2 - Collections and Exceptions\StudentDBExceptions\StudentDBExceptions\bin\Debug\net6.0\StudentDBExceptions.pdb
+C:\Users\Tommy\Desktop\Class Repo\September2022ClassRepo\Week 2 - Collections and Exceptions\StudentDBExceptions\StudentDBExceptions\obj\Debug\net6.0\StudentDBExceptions.csproj.AssemblyReference.cache
+C:\Users\Tommy\Desktop\Class Repo\September2022ClassRepo\Week 2 - Collections and Exceptions\StudentDBExceptions\StudentDBExceptions\obj\Debug\net6.0\StudentDBExceptions.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Tommy\Desktop\Class Repo\September2022ClassRepo\Week 2 - Collections and Exceptions\StudentDBExceptions\StudentDBExceptions\obj\Debug\net6.0\StudentDBExceptions.AssemblyInfoInputs.cache
+C:\Users\Tommy\Desktop\Class Repo\September2022ClassRepo\Week 2 - Collections and Exceptions\StudentDBExceptions\StudentDBExceptions\obj\Debug\net6.0\StudentDBExceptions.AssemblyInfo.cs
+C:\Users\Tommy\Desktop\Class Repo\September2022ClassRepo\Week 2 - Collections and Exceptions\StudentDBExceptions\StudentDBExceptions\obj\Debug\net6.0\StudentDBExceptions.csproj.CoreCompileInputs.cache
+C:\Users\Tommy\Desktop\Class Repo\September2022ClassRepo\Week 2 - Collections and Exceptions\StudentDBExceptions\StudentDBExceptions\obj\Debug\net6.0\StudentDBExceptions.dll
+C:\Users\Tommy\Desktop\Class Repo\September2022ClassRepo\Week 2 - Collections and Exceptions\StudentDBExceptions\StudentDBExceptions\obj\Debug\net6.0\refint\StudentDBExceptions.dll
+C:\Users\Tommy\Desktop\Class Repo\September2022ClassRepo\Week 2 - Collections and Exceptions\StudentDBExceptions\StudentDBExceptions\obj\Debug\net6.0\StudentDBExceptions.pdb
+C:\Users\Tommy\Desktop\Class Repo\September2022ClassRepo\Week 2 - Collections and Exceptions\StudentDBExceptions\StudentDBExceptions\obj\Debug\net6.0\StudentDBExceptions.genruntimeconfig.cache
+C:\Users\Tommy\Desktop\Class Repo\September2022ClassRepo\Week 2 - Collections and Exceptions\StudentDBExceptions\StudentDBExceptions\obj\Debug\net6.0\ref\StudentDBExceptions.dll
