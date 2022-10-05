@@ -7,7 +7,10 @@
             Console.WriteLine("Hello, World!");
             Console.WriteLine("I like buger king, king of all burgers");
 
+            Console.WriteLine("Pineapple is great on pizza");
+
             Console.WriteLine("Pineapple on pizza is bad");
+
         }
     }
 }
