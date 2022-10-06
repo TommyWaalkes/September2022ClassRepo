@@ -1,0 +1,15 @@
+C:\Users\Tommy\Desktop\Class Repo\September2022ClassRepo\Week 2 - Collections and Exceptions\LinqExample\LinqExample\bin\Debug\net6.0\LinqExample.exe
+C:\Users\Tommy\Desktop\Class Repo\September2022ClassRepo\Week 2 - Collections and Exceptions\LinqExample\LinqExample\bin\Debug\net6.0\LinqExample.deps.json
+C:\Users\Tommy\Desktop\Class Repo\September2022ClassRepo\Week 2 - Collections and Exceptions\LinqExample\LinqExample\bin\Debug\net6.0\LinqExample.runtimeconfig.json
+C:\Users\Tommy\Desktop\Class Repo\September2022ClassRepo\Week 2 - Collections and Exceptions\LinqExample\LinqExample\bin\Debug\net6.0\LinqExample.dll
+C:\Users\Tommy\Desktop\Class Repo\September2022ClassRepo\Week 2 - Collections and Exceptions\LinqExample\LinqExample\bin\Debug\net6.0\LinqExample.pdb
+C:\Users\Tommy\Desktop\Class Repo\September2022ClassRepo\Week 2 - Collections and Exceptions\LinqExample\LinqExample\obj\Debug\net6.0\LinqExample.csproj.AssemblyReference.cache
+C:\Users\Tommy\Desktop\Class Repo\September2022ClassRepo\Week 2 - Collections and Exceptions\LinqExample\LinqExample\obj\Debug\net6.0\LinqExample.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Tommy\Desktop\Class Repo\September2022ClassRepo\Week 2 - Collections and Exceptions\LinqExample\LinqExample\obj\Debug\net6.0\LinqExample.AssemblyInfoInputs.cache
+C:\Users\Tommy\Desktop\Class Repo\September2022ClassRepo\Week 2 - Collections and Exceptions\LinqExample\LinqExample\obj\Debug\net6.0\LinqExample.AssemblyInfo.cs
+C:\Users\Tommy\Desktop\Class Repo\September2022ClassRepo\Week 2 - Collections and Exceptions\LinqExample\LinqExample\obj\Debug\net6.0\LinqExample.csproj.CoreCompileInputs.cache
+C:\Users\Tommy\Desktop\Class Repo\September2022ClassRepo\Week 2 - Collections and Exceptions\LinqExample\LinqExample\obj\Debug\net6.0\LinqExample.dll
+C:\Users\Tommy\Desktop\Class Repo\September2022ClassRepo\Week 2 - Collections and Exceptions\LinqExample\LinqExample\obj\Debug\net6.0\refint\LinqExample.dll
+C:\Users\Tommy\Desktop\Class Repo\September2022ClassRepo\Week 2 - Collections and Exceptions\LinqExample\LinqExample\obj\Debug\net6.0\LinqExample.pdb
+C:\Users\Tommy\Desktop\Class Repo\September2022ClassRepo\Week 2 - Collections and Exceptions\LinqExample\LinqExample\obj\Debug\net6.0\LinqExample.genruntimeconfig.cache
+C:\Users\Tommy\Desktop\Class Repo\September2022ClassRepo\Week 2 - Collections and Exceptions\LinqExample\LinqExample\obj\Debug\net6.0\ref\LinqExample.dll
