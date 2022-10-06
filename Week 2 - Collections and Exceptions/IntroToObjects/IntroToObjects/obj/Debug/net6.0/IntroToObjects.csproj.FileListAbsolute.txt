@@ -1,0 +1,15 @@
+C:\Users\Tommy\Desktop\Class Repo\September2022ClassRepo\Week 2 - Collections and Exceptions\IntroToObjects\IntroToObjects\bin\Debug\net6.0\IntroToObjects.exe
+C:\Users\Tommy\Desktop\Class Repo\September2022ClassRepo\Week 2 - Collections and Exceptions\IntroToObjects\IntroToObjects\bin\Debug\net6.0\IntroToObjects.deps.json
+C:\Users\Tommy\Desktop\Class Repo\September2022ClassRepo\Week 2 - Collections and Exceptions\IntroToObjects\IntroToObjects\bin\Debug\net6.0\IntroToObjects.runtimeconfig.json
+C:\Users\Tommy\Desktop\Class Repo\September2022ClassRepo\Week 2 - Collections and Exceptions\IntroToObjects\IntroToObjects\bin\Debug\net6.0\IntroToObjects.dll
+C:\Users\Tommy\Desktop\Class Repo\September2022ClassRepo\Week 2 - Collections and Exceptions\IntroToObjects\IntroToObjects\bin\Debug\net6.0\IntroToObjects.pdb
+C:\Users\Tommy\Desktop\Class Repo\September2022ClassRepo\Week 2 - Collections and Exceptions\IntroToObjects\IntroToObjects\obj\Debug\net6.0\IntroToObjects.csproj.AssemblyReference.cache
+C:\Users\Tommy\Desktop\Class Repo\September2022ClassRepo\Week 2 - Collections and Exceptions\IntroToObjects\IntroToObjects\obj\Debug\net6.0\IntroToObjects.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Tommy\Desktop\Class Repo\September2022ClassRepo\Week 2 - Collections and Exceptions\IntroToObjects\IntroToObjects\obj\Debug\net6.0\IntroToObjects.AssemblyInfoInputs.cache
+C:\Users\Tommy\Desktop\Class Repo\September2022ClassRepo\Week 2 - Collections and Exceptions\IntroToObjects\IntroToObjects\obj\Debug\net6.0\IntroToObjects.AssemblyInfo.cs
+C:\Users\Tommy\Desktop\Class Repo\September2022ClassRepo\Week 2 - Collections and Exceptions\IntroToObjects\IntroToObjects\obj\Debug\net6.0\IntroToObjects.csproj.CoreCompileInputs.cache
+C:\Users\Tommy\Desktop\Class Repo\September2022ClassRepo\Week 2 - Collections and Exceptions\IntroToObjects\IntroToObjects\obj\Debug\net6.0\IntroToObjects.dll
+C:\Users\Tommy\Desktop\Class Repo\September2022ClassRepo\Week 2 - Collections and Exceptions\IntroToObjects\IntroToObjects\obj\Debug\net6.0\refint\IntroToObjects.dll
+C:\Users\Tommy\Desktop\Class Repo\September2022ClassRepo\Week 2 - Collections and Exceptions\IntroToObjects\IntroToObjects\obj\Debug\net6.0\IntroToObjects.pdb
+C:\Users\Tommy\Desktop\Class Repo\September2022ClassRepo\Week 2 - Collections and Exceptions\IntroToObjects\IntroToObjects\obj\Debug\net6.0\IntroToObjects.genruntimeconfig.cache
+C:\Users\Tommy\Desktop\Class Repo\September2022ClassRepo\Week 2 - Collections and Exceptions\IntroToObjects\IntroToObjects\obj\Debug\net6.0\ref\IntroToObjects.dll

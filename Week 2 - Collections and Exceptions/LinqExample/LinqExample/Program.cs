@@ -40,6 +40,16 @@ namespace LinqExample
             Console.WriteLine(highestOdd);
             int lowest = nums.Min();
             Console.WriteLine(lowest);
+
+            int[] nums2 = { 10, 2330, 112233, 10, 949, 3764, 2942 };
+
+           // Array.Sort(nums2);
+            nums2= nums2.OrderByDescending(n => n).ToArray();
+            Console.WriteLine();
+            foreach(int num in nums2)
+            {
+                Console.WriteLine(num);
+            }
         }
 
         public static void PrintList(List<int> input)
