@@ -7,10 +7,10 @@ using System.Threading.Tasks;
 
 namespace AnimalInheritance
 {
-    //Chimps will eat anything, but need 1000 calories and at least 200 meat calories. 
+    //Pigs  will eat anything, but need 1000 calories and at least 1000 meat calories and 1000 plant calories 
     public class Pig : Animal
     {
-        //This property is only available to chimp 
+        //This property is only available to pig 
         //Parents only give to their children, but they don't recieve 
         public int MeatCalories { get; set; }
         public int PlantCalories { get; set; }

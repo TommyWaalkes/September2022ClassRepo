@@ -8,6 +8,9 @@ namespace AnimalInheritance
 {
     public class Panda : Animal
     {
+        //Pandas are slightly more complex than bush, 
+        //You need to set the calories needed 
+        //then override eat and halve the amount of calories input 
         public Panda()
         {
             CaloriesNeeded = 3000;

@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace AnimalInheritance
 {
+    //Bush needs 50 calories and only light
+    //We only need to swap the calories variable and 
+    //Override eat in small ways to make this work 
     public class Bush : Animal
     {
         public Bush()
