@@ -31,9 +31,27 @@ public class Program
 
         Panda p = new Panda();
         Console.WriteLine(p.IsSated);
-        p.Eat("plants", 3000);
+        p.Eat("plants", 3005);
         Console.WriteLine(p.IsSated);
         p.Eat("plants", 3000);
         Console.WriteLine(p.IsSated);
+        Console.WriteLine();
+        Wolf w = new Wolf();
+        Console.WriteLine(w.IsSated);
+        w.Eat("meat", 800);
+        Console.WriteLine(w.IsSated);
+        w.Eat("meat", 800);
+        w.Eat("meat", 800);
+        w.Eat("meat", 800);
+        Console.WriteLine(w.IsSated);
+
+        Console.WriteLine();
+        Pig pigy = new Pig();
+        Console.WriteLine(pigy.IsSated);
+        pigy.Eat("meat", 3000);
+        Console.WriteLine(pigy.IsSated);
+        pigy.Eat("plants", 1000);
+        Console.WriteLine(pigy.IsSated);
+
     }
 }
