@@ -20,7 +20,7 @@ namespace IntroToObjects
 
         //In C#, Properties, which available to the whole class, are written in title case 
         //Local variables that in a method are still done in camelCase
-        public string Make;
+        public string Make { get; set; }
         public string Model { get; set; }
         public string Color { get; set; }
         public int Year { get; set; }
