@@ -11,6 +11,8 @@ namespace AnimalInheritance
         public int TimesFed { get; set; } = 0;
 
         //This is an example of adding onto the parent's is sated listener 
+        //We call the base condition and then add onto it 
+        //Like with methods you can either replace or add onto a lambda 
         public override bool IsSated => base.IsSated && TimesFed >= 4;
         public Wolf()
         {
