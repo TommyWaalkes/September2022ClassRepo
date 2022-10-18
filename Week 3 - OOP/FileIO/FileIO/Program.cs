@@ -19,7 +19,7 @@
 
         //In C# there are several ways of doing this process 
         //I picked this approach specifically since it mirrors how most other languages behave 
-        string relPath = Directory.GetParent(Directory.GetCurrentDirectory()).Parent.FullName;
+        string relPath = Directory.GetParent(Directory.GetCurrentDirectory()).Parent.FullName ;
         Console.WriteLine(relPath);
         string fixedRel = relPath.Substring(0,relPath.LastIndexOf("bin"));
         Console.WriteLine(fixedRel);
@@ -28,7 +28,7 @@
         //It tells C# to not treat the \ as special characters 
         string filePath = @"C:\Users\Tommy\Desktop\Class Repo\September2022ClassRepo\Week 3 - OOP\FileIO\FileIO\Country.txt";
         Console.WriteLine(filePath);
-        StreamReader reader = new StreamReader(filePath);
+        StreamReader reader = new StreamReader(fixedRel + @"\Country.txt");
         string textDump = reader.ReadToEnd();
         Console.WriteLine(textDump);
 
