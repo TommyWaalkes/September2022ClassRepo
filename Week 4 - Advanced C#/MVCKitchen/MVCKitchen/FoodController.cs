@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace MVCKitchen
 {
+    //When first looking at an MVC, check the controllers 
     class FoodController
     {
         //This will be our food "database", we'll learn databases and how to connect to C# later on
@@ -24,6 +25,7 @@ namespace MVCKitchen
         }
 
         //Pass the list of products down to a products view, which print will print them. 
+        //Method inside controllers are called actions, each view gets its own action
         public void Products()
         {
             FoodListView pv = new FoodListView(FoodDB);
