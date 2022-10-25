@@ -10,28 +10,46 @@ namespace DBFirstExample
 
             //This is part of why I emphasize toList early on, Entity loves using ToList
             List<Student> students = db.Students.ToList();
+            PrintStudents(students);
 
+            //PrintStudent();
+
+            //Console.WriteLine("Please select a student you wish to edit:");
+
+            //int id = int.Parse(Console.ReadLine());
+
+            //SchoolCRUD sc = new SchoolCRUD();
+           // sc.EditStudent(id);
+
+           
+
+            PrintStudent();
+
+        }
+
+        public static void PrintStudents(List<Student> students)
+        {
             Console.WriteLine("Print Student Names: ");
-
-            foreach(Student s in students)
+            //int i = 1;
+            foreach (Student stu in students)
             {
-                Console.WriteLine(s.Name);
+                Console.WriteLine(stu.Id + " " + stu.Name);
+               // i++;
             }
+        }
 
-            Console.WriteLine("Lets add a new student into our table");
-            Student newS = new Student();
+        public static void PrintStudent()
+        {
+            SchoolCRUD sc = new SchoolCRUD();
+            Console.WriteLine("Please select an id to learn about that student");
+            int pick = int.Parse(Console.ReadLine());
 
-            Console.WriteLine("What is the name of your student?");
-            newS.Name = Console.ReadLine();
+            Student s = sc.GetStudent(pick);
 
-            Console.WriteLine("What is their GPA?");
-            newS.Gpa = double.Parse(Console.ReadLine());
-
-            Console.WriteLine("What is their Major?");
-            newS.Major = Console.ReadLine();
-
-            db.Students.Add(newS);
-            db.SaveChanges();
+            Console.WriteLine($"Name: {s.Name}");
+            Console.WriteLine($"Major: {s.Major}");
+            Console.WriteLine($"GPA: {s.Gpa}");
+            Console.WriteLine($"DB id: {s.Id}");
         }
     }
 }
