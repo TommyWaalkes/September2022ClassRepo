@@ -1,0 +1,26 @@
+p{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    color: midnightblue;
+}
+
+#Image{
+    border: 3px solid black;
+    margin: 5px;
+    padding: 5px;
+}
+
+.centerElement{
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.quarterWidth{
+    width:25%;
+}
+
+.header{
+    color:hotpink;
+    font-weight: bolder;
+    font-family: cursive;
+}

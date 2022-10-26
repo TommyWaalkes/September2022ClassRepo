@@ -1,0 +1,58 @@
+<html>
+    <!-- CSS stands for Cascading Style sheets, it is a file that HTML reads from top to bottom and applies rules to itself
+    Every CSS rule consists of a few parts: 
+        p{
+            color: red; 
+            font-size: 30px;
+        }
+
+        The P here is the selector - it tells HTML what to target, selectors come in 3 different flavors: 
+        1) Tag select - targets all instances of an html, think of these as the default for your site 
+        2) Class - .redFont - classes are reuseable lines of CSS, they apply anywhere you set an HTML element's class attribute, most common CSS selector
+        Naming conventions for Classes - they are generally lowercase or camelCase 
+        3) Id - #FrontPageHeader - these are meant to be used only once per page and generally exist to override other rules or do something that only appears once 
+        Naming Conventions for Ids - They are always TitleCase 
+        Given that Ids are meant to only once per page, they are the prefered for Javascript to interact with HTML 
+
+        CSS Rules - css has countless built in rules, and you need to be to reference there's few you'll need frequent 
+        - many rules especially the more complex ones are situational 
+        Rules for: 
+        1) Fonts - size, font family, boldness, alignment 
+        2) Layout rules - box model - margin (space outside an element) 
+                                      border - covers the edge of an element 
+                                      padding - space between the border and heart of an element <- guess n check until it looks decent
+        3) Sizing - width and height 
+
+        Measurement in CSS 
+        px - pixels on the screen roughly the same size on most screen 
+        % - relative and its the % space of its parent element 
+        
+        em - complicated, but roughly correlates  with size of the M in your font <- we never use this 
+        pt - mirror point sizes in MS word, generally too much size difference between points to be useful
+
+    -->
+    <head>
+        <title>Welcome to my cool website</title>
+        <Link rel="stylesheet" href="main.css"/>
+    </head>
+    <body>
+        <!--You can apply as many css classes as you wish on an element, same with Ids, but that situation comes up more rarely-->
+        <div class="centerElement quarterWidth">
+            <h2 class="header">Tommy's cool website, def not a scam</h2>
+            <a href="About.html"><p>About</p></a>
+            <a href="Contact.html"><p>Contact</p></a>
+        </div>
+        <p>Leverage agile frameworks to provide a robust synopsis for
+             high level overviews. Iterative approaches to corporate strategy</p>
+
+        <p>foster collaborative thinking to further the overall value proposition. 
+            Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.</p>
+           <ul>
+                <li><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Earn 100$ of cash now!!!</a></li>
+                <li><a href="https://www.youtube.com/watch?v=GJSEtXY9HYY">Start your career in doing money and being rich</a></li>
+                <li><a href="https://www.amazon.com/s?k=shrek&crid=2C81IAJLE9M6V&sprefix=shrek%2Caps%2C144&ref=nb_sb_noss_1">Shrek</a></li>
+           </ul> 
+
+           <img id="Image" src="map.jpg" width="300px" height="auto" />
+    </body>
+</html>
