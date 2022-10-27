@@ -1,0 +1,28 @@
+<html>
+    <body>
+        <!--Why do we need forms? 
+        In web applications they allow us to collect user input, forms hook directly into our backend 
+        Most frameworks can gather input from forms as well. Many will have their own way of interacting and collecting form data
+        -->
+
+        <!--Forms consist of 2 things, inputs and labels for those inputs-->
+        <form action="methodInController">
+            <p>Name</p>
+            <input type="text" />
+            
+            <p>Age</p>
+            <input type="number" name="age" min="0" max="150"/>
+
+            <p>Favorite Movie Genre</p>
+            <!--I use the select tag since it will hook directly into my form, many other methods won't automatically talk to your backend-->
+            <select name="genre">
+                <option value="horror">Horror</option>
+                <option value="drama">Drama</option>
+                <option value="comedy">Comedy</option>
+                <option value="romance">Romance</option>
+            </select>
+
+            <input type="submit" value="Submit info"/>
+        </form>
+    </body>
+</html>
