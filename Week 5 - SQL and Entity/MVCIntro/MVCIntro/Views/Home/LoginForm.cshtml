@@ -1,0 +1,17 @@
+﻿<!--To tell the form what action to call upon submission we need to set the action attribute-->
+<!--It is best practice to put in the asp-controller to make what action I intend to call wholly unambiguous-->
+    <!--Our form will still without it, but will only search in the current controller-->
+    <!--In .Net you may only use asp action on forms-->
+<form asp-action="Result" asp-controller="Home">
+    <p>User Name</p>
+    <input type="text" name="UserName"/>
+
+    <p>Password</p>
+    <!--This hides the password from the front end, but it is freely availiable on the backend-->
+    <input type="password" name="Password"/>
+
+    <p>Age</p>
+    <input type="number" name="Age"/>
+
+    <input type="submit"/>
+</form>

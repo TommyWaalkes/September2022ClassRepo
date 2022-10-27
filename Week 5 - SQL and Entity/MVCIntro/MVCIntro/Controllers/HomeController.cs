@@ -26,6 +26,18 @@ namespace MVCIntro.Controllers
             return View();
         }
 
+        public IActionResult LoginForm()
+        {
+            return View();
+        }
+
+        //Login l here represent the user input from the previous page 
+        //.Net checks the url and fills out the object with data from it
+        public IActionResult Result(Login l)
+        {
+            return View(l);
+        }
+
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
