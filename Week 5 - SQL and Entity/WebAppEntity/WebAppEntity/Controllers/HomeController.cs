@@ -27,6 +27,20 @@ namespace WebAppEntity.Controllers
             return View(movies);
         }
 
+        public IActionResult Search()
+        {
+            //This displays the view 
+            return View();
+        }
+
+        //You can pass along full objects into actions and you may do single pieces of data as well 
+        //As long as the parameter in the action matches up with the names of the inputs
+        public IActionResult SearchResult(string Title) 
+        { 
+            List<Movie> results = db.Movies.Where(x => x.Title.Contains(Title) ).ToList();
+            return View(results);
+        }
+
         public IActionResult Privacy()
         {
             return View();

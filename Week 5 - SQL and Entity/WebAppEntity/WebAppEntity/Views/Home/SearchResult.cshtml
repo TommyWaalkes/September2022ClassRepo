@@ -1,0 +1,13 @@
+﻿@model IEnumerable<Movie>
+
+    <h2>Search by Title Results</h2>
+@foreach (Movie m in Model)
+{
+            <div>
+                <p>Id: @m.Id</p>
+                <p>Title: @m.Title</p>
+                <p>Genre: @m.Genre</p>
+                <p>Run Time: @m.Runtime</p>
+            </div>
+            <br/>
+}
