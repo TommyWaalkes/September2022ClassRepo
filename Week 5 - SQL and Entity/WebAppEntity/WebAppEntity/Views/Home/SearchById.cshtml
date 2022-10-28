@@ -1,0 +1,17 @@
+﻿@model IEnumerable<Movie>
+
+<h2>Search by Movie Id</h2>
+
+<form asp-action="IdResult" asp-controller="Home">
+    <p>Select an Id:</p>
+    <select name="id">
+        @foreach(Movie m in Model){
+            <option value="@m.Id">
+                @m.Id
+            </option>
+        }
+
+    </select>
+
+    <input type="submit"/>
+</form>

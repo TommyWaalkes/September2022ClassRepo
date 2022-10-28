@@ -1,0 +1,17 @@
+﻿<!--Since we're making a new movie, we need to put an input field for each property/column in our table, 
+    save for our id, since identity in SQL handles that for us, even in .Net 
+-->
+
+<!--When you're add to a database it is a convention to use post-->
+<form asp-action="AddMovie" asp-controller="Home" method="post">
+    <p>Title</p>
+    <input type="text" name="Title" />
+
+    <p>Genre</p>
+    <input type="text" name="Genre"/>
+
+    <p>Run Time</p>
+    <input type="number" name="Runtime"/>
+
+    <input type="submit"/>
+</form>
