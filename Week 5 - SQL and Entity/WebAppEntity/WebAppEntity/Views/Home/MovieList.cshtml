@@ -1,0 +1,13 @@
+﻿<!--IEnumerable is the parent to all collections and arrays, I therefore can pass any linear collection or array down to this view-->
+@model IEnumerable<Movie>
+
+    <!--Razor is C# syntax useable in a view, it is used to style and arrange our view and it is used to print data out to our view-->
+    @foreach(Movie m in Model){
+        <div>
+            <p>Id: @m.Id</p>
+            <p>Title: @m.Title</p>
+            <p>Genre: @m.Genre</p>
+            <p>Run Time: @m.Runtime</p>
+        </div>
+        <br/>
+    }
