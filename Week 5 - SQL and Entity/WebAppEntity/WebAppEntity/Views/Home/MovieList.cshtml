@@ -8,6 +8,10 @@
             <p>Title: @m.Title</p>
             <p>Genre: @m.Genre</p>
             <p>Run Time: @m.Runtime</p>
+            <a asp-action="Update" asp-controller="Home" asp-route-Id="@m.Id"><p>Update @m.Title</p></a>
+            <a asp-action="Delete" asp-controller="Home" asp-route-Id="@m.Id"><p>Delete this Entry</p></a>
         </div>
         <br/>
     }
+
+    <a asp-action="AddMovie" asp-controller="Home"><p>Add Movie</p></a>

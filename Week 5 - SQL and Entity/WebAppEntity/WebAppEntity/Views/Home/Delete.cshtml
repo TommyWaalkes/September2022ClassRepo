@@ -1,0 +1,10 @@
+﻿@model Movie
+
+<p>Title: @Model.Title</p>
+<p>Genre: @Model.Genre</p>
+<p>Run Time: @Model.Runtime</p>
+<p>Id: @Model.Id</p>
+
+<p>Would you like to delete this database entry?</p>
+
+<a asp-action="DeleteConfirm" asp-controller="Home" asp-route-Id="@Model.Id">Yes go ahead and delete</a>

@@ -1,0 +1,19 @@
+﻿@model Movie
+
+<form asp-action="UpdateConfirm" asp-controller="Home">
+    <p>Id: @Model.Id</p>
+    <!--This input is hidden so users can't edit their ids, and the form can put an id into the model for the 
+        update confirm action. 
+    -->
+    <input type="hidden" name="Id" value="@Model.Id"/>
+    <p>Title</p>
+    <input type="text" name="Title" value="@Model.Title"/>
+
+    <p>Genre</p>
+    <input type="text" name="Genre" value="@Model.Genre"/>
+
+    <p>Run Time</p>
+    <input type="number" min="1" name="Runtime" value="@Model.Runtime"/>
+
+    <input type="submit"/>
+</form>

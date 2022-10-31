@@ -73,8 +73,45 @@ namespace WebAppEntity.Controllers
             //A redirectToAction Invoke another action is .net's preferred of way of doing redirects
             //There a number of useful overloads, 1 in particular is where it takes in 2 strings:
             //one for the action and one for the controller 
-            //  return RedirectToAction("MovieList");
-            return MovieList();
+
+            //We use redirectToActions since there's some overhead that needs to happen under the hood, that calling another 
+            //action directly won't do 
+             return RedirectToAction("MovieList");
+ 
+        }
+
+        public IActionResult Delete(int id)
+        {
+            //We're grabing the movie we intend to delete so we can show the user 
+            //What they're deleting and ask if they're sure
+            Movie m = db.Movies.Find(id);
+            return View(m);
+        }
+
+       
+        public IActionResult DeleteConfirm(int id)
+        {
+            Movie m = db.Movies.Find(id);
+            db.Movies.Remove(m);
+            db.SaveChanges();
+
+            return RedirectToAction("MovieList");
+        }
+
+        public IActionResult Update(int id)
+        {
+            Movie m = db.Movies.Find(id);
+            return View(m);
+        }
+
+
+        public IActionResult UpdateConfirm(Movie m)
+        {
+            //Checks the model and override the matching row with any new values 
+            db.Movies.Update(m);
+            db.SaveChanges();
+            return RedirectToAction("MovieList");
+
         }
 
         public IActionResult Privacy()
