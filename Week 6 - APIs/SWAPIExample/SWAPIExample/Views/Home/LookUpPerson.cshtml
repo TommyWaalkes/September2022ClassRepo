@@ -1,5 +1,7 @@
-﻿@model SWPerson
+﻿@model PlanetPersonViewModel
 
-<p>Name: @Model.name</p>
-<p>Eye Color: @Model.eye_color</p>
-<p>Homeworld: @Model.homeworld</p>
+<p>Name: @Model.Person.name</p>
+<p>Eye Color: @Model.Person.eye_color</p>
+<p>Homeworld: @Model.World.name</p>
+
+<a asp-action="LookUpPlanet" asp-controller="Home" asp-route-id="@Model.PlanetId"><p>Learn more about @Model.World.name</p></a>

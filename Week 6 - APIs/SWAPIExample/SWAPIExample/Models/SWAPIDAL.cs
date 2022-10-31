@@ -7,10 +7,19 @@ namespace SWAPIExample.Models
 
         public SWPerson GetPerson(int id)
         {
-            var client = new RestClient($"https://swapi.dev/api/people/{id}/");
-            var request = new RestRequest();
+            RestClient client = new RestClient($"https://swapi.dev/api/people/{id}/");
+            RestRequest request = new RestRequest();
             var response = client.GetAsync<SWPerson>(request);
             SWPerson sp = response.Result;
+
+            return sp;
+        }
+        public Planet GetPlanet(int id)
+        {
+            RestClient client = new RestClient($"https://swapi.dev/api/planets/{id}/");
+            RestRequest request = new RestRequest();
+            var response = client.GetAsync<Planet>(request);
+            Planet sp = response.Result;
 
             return sp;
         }
