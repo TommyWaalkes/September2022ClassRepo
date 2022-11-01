@@ -1,0 +1,12 @@
+﻿@model Data1
+
+<a href="@Model.url">
+<p>@Model.title</p>
+
+    @if(@*(Model.data.children[0].data.thumbnail != null 
+    || Model.data.children[0].data.thumbnail != "" *@
+     Model.thumbnail != "self")
+    {
+        <img src="@Model.thumbnail"/>
+    }
+</a>

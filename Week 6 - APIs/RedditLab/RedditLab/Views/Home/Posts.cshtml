@@ -1,0 +1,15 @@
+﻿@model IEnumerable<Child>
+
+@foreach(Child post in Model){
+
+    <a href="@post.data.url">
+    <p>@post.data.title</p>
+
+        @if (@*(Model.data.children[0].data.thumbnail != null 
+        || Model.data.children[0].data.thumbnail != "" *@
+        post.data.thumbnail != "self")
+        {
+                <img src="@post.data.thumbnail"/>
+        }
+    </a>
+}
