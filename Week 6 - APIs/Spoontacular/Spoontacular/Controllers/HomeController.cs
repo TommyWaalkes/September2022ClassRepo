@@ -7,6 +7,7 @@ namespace Spoontacular.Controllers
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
+        SpoonDAL api = new SpoonDAL();
 
         public HomeController(ILogger<HomeController> logger)
         {
@@ -16,6 +17,13 @@ namespace Spoontacular.Controllers
         public IActionResult Index()
         {
             return View();
+        }
+
+        public IActionResult SearchResults(string recipeName)
+        {
+            RecipesResults s = api.GetResults(recipeName);
+
+            return View(s);
         }
 
         public IActionResult Privacy()

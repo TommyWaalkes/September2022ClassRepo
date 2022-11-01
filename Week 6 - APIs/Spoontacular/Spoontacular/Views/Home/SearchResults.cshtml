@@ -1,0 +1,11 @@
+﻿@model RecipesResults
+
+<h2>Recipe Search Results</h2>
+
+@foreach (Result r in Model.results)
+{
+    <p>Recipe Name: @r.title</p>
+    <p>Recipe Id: @r.id</p>
+    <img src="@r.image"/>
+    <a asp-action="Recipe" asp-controller="Home" asp-route-id="@r.id">See Recipe for @r.title</a>
+}
