@@ -16,8 +16,25 @@ namespace OpenMovieAPI.Controllers
 
         public IActionResult Index()
         {
-            Results r = api.SearchMovies("Forest+Gump");
+            Results r = api.SearchMovies("Forrest Gump");
             return View(r);
+        }
+
+        public IActionResult SearchByTitle()
+        {
+            return View();
+        }
+
+        public IActionResult Results(string title)
+        {
+            Results r = api.SearchMovies(title);
+            return View(r);
+        }
+
+        public IActionResult MovieDetails(string id)
+        {
+            Movie movie = api.GetMovieById(id);
+            return View(movie);
         }
 
         public IActionResult Privacy()

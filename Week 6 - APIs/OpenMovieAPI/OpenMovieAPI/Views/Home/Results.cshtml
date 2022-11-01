@@ -1,0 +1,21 @@
+﻿@model Results
+
+@foreach(Search s in Model.Search){
+    <!--What is a style tag in HTML? it is a special tag that allows you to put CSS directly onto an element, overriding other CSS
+        In a lot of cases and stacks it is style tags for a few reasons: 
+        1) they override existing styles and therefore make working with CSS harder - I don't what's rules to work/not work 
+        2) CSS sheet can apply to the whole site or sections of a site, styles tags exist only in the page 
+
+        HOWEVER, 
+        .Net comes with a lot of built and messily made style sheets, so in .Net that's one of the main times where its okay to use
+        otherwise you'd have to dig through a 5000 line CSS, ain't nobody go time for that 
+    -->
+   <div style="border: solid 3px black">
+    <p>Title: @s.Title</p>
+    <p>Year: @s.Year</p>
+
+    <img src="@s.Poster"/>
+    <a asp-action="MovieDetails" asp-controller="Home" asp-route-id="@s.imdbID"><p>See full details</p></a>
+    <br/>
+    </div>
+}

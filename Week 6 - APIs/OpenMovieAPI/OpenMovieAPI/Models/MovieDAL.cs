@@ -17,5 +17,16 @@ namespace OpenMovieAPI.Models
             return sp;
 
         }
+
+        public Movie GetMovieById(string id)
+        {
+            string url = $"https://www.omdbapi.com/?i={id}&apikey={key}";
+            RestClient client = new RestClient(url);
+            RestRequest request = new RestRequest();
+            var reponse = client.GetAsync<Movie>(request);
+
+            Movie movie = reponse.Result;
+            return movie;
+        }
     }
 }
