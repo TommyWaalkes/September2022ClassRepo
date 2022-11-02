@@ -1,0 +1,12 @@
+﻿@model Person 
+
+@if(Model.CanDrive){
+    <p>This person can Drive</p>
+}
+
+@if(Model.CanDrink){
+    <h2>This person can Drink</h2>
+}
+else{
+    <h1>This person is too young to drink</h1>
+}
