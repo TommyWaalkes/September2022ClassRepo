@@ -19,7 +19,7 @@ namespace Pets.Controllers
         {
             _context = context;
         }
-
+      
         // GET: api/Pets
         [HttpGet]
         public async Task<ActionResult<IEnumerable<Pet>>> GetPets()
