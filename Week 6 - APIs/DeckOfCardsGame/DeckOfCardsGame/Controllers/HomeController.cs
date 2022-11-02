@@ -25,7 +25,8 @@ namespace DeckOfCardsGame.Controllers
 
         public IActionResult Index()
         {
-            Draws d = api.GetCards(2);
+            Deck startingDeck = api.GetDeck();
+            Draws d = api.GetCards(2,startingDeck.deck_id);
             Card card1 = d.cards[0];
             Card card2 = d.cards[1];
 
