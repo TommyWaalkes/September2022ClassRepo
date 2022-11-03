@@ -14,9 +14,9 @@ namespace DeckOfCardsGame.Models
             return response.Result;
         }
 
-        public Draws GetCards(int draws)
+        public Draws GetCards(int draws,string deckId)
         {
-            RestClient client = new RestClient($"https://deckofcardsapi.com/api/deck/yn6lb2knbcsd/draw/?count={draws}");
+            RestClient client = new RestClient($"https://deckofcardsapi.com/api/deck/{deckId}/draw/?count={draws}");
             RestRequest request = new RestRequest();
             var response = client.GetAsync<Draws>(request);
             return response.Result;
