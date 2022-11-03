@@ -17,6 +17,14 @@ namespace DeckOfCardsGame.Controllers
         public IActionResult Index()
         {
             Draws d = api.GetCards(2);
+            Card one = d.cards[0];
+            Card two = d.cards[1];
+
+            if(one.value == two.value)
+            {
+
+            }
+
             return View(d);
         }
 
