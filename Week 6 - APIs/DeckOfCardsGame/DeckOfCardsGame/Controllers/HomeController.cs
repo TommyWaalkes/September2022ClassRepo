@@ -25,15 +25,8 @@ namespace DeckOfCardsGame.Controllers
 
         public IActionResult Index()
         {
-<<<<<<< HEAD
-            Draws d = api.GetCards(2);
-            Card one = d.cards[0];
-            Card two = d.cards[1];
 
-            if(one.value == two.value)
-            {
 
-=======
             Deck startingDeck = api.GetDeck();
             Draws d = api.GetCards(2,startingDeck.deck_id);
             Card card1 = d.cards[0];
