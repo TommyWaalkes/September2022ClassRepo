@@ -25,15 +25,7 @@ namespace DeckOfCardsGame.Controllers
 
         public IActionResult Index()
         {
-<<<<<<< HEAD
-            Draws d = api.GetCards(2);
-            Card one = d.cards[0];
-            Card two = d.cards[1];
 
-            if(one.value == two.value)
-            {
-
-=======
             Deck startingDeck = api.GetDeck();
             Draws d = api.GetCards(2,startingDeck.deck_id);
             Card card1 = d.cards[0];
@@ -66,7 +58,7 @@ namespace DeckOfCardsGame.Controllers
             else
             {
                 d.Winner = "It is a draw!";
->>>>>>> f86fb310f88305b1ac5379b9d708ed0241051d33
+
             }
 
             return View(d);
