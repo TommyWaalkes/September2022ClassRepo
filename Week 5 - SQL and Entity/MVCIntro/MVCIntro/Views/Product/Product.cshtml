@@ -1,0 +1,12 @@
+﻿@model Product
+
+<p>My product is @Model.Name</p>
+
+@if(Model.Name.Length > 5)
+{
+    <h1>Your name is long</h1>
+}
+else
+{
+    <h2>Your name is small</h2>
+}
