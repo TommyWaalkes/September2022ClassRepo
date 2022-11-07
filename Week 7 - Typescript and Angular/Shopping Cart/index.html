@@ -1,0 +1,29 @@
+<html>
+    <head>
+
+    </head>
+    <body>
+        <ul>
+            <li>Spam $3.99 <button onclick="addToCart(0)">Buy this item</button></li>
+            <li>Bananas $1.99 <button onclick="addToCart(1)">Buy this item</button></li>
+            <li>Cabbage $.89 <button onclick="addToCart(2)">Buy this item</button></li>
+        </ul>
+
+        <!--On Click allows us to call a method upon clicking the button, 
+            technically what happens is a click listener is attached to the button -->
+
+            <!--Javascript LOVES listeners, click listeners are some of the most common, 
+                there's others listeners like window Resize listeners, keyboard input listenersm, hover listeners -->
+                <!--The process of using window resize listeners to adjust the page to different layouts for different screen sizes is called 
+                responsiveness, which is a common front-end problem to tackle. 
+            our specific stacks starts out already responsive so we don't need to dive too deep. 
+            -->
+        <button onclick="checkout()">Check Out</button>
+
+        <div id="SubTotal"></div>
+        <!--Classes are meant to be reuseable throughout a page, Ids meant only to be used once-->
+        <p id="Total">Total: $0.00</p>
+
+        <script src="ShoppingCart.js"></script>
+    </body>
+</html>
