@@ -1,0 +1,31 @@
+﻿@*We use IEnumerable since it lets up use an array or list or several linear collections *@
+@model IEnumerable<Employee>
+
+<table>
+    <tr>
+        <th>
+            First Name
+        </th>
+        <th>
+            Age
+        </th>
+        <th>
+            Salary
+        </th>
+    </tr>
+    @foreach(Employee e in Model){
+        <tr>
+            <td> @e.FirstName</td>
+            <td>@e.Age</td>
+            <td>@e.Salary</td>
+        </tr>
+    }
+
+</table>
+
+<form asp-action="RetirementInfo" asp-controller="Home">
+    <p>Lookup Retirement Info by Id</p>
+    <input type="number" name="id"/>
+
+    <input type="submit" />
+</form>

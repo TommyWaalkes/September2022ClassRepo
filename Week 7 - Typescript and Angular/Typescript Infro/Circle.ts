@@ -21,3 +21,12 @@ class Circle{
 let c : Circle = new Circle(10, true, "Tommy");
 
 console.log(c.GetArea());
+
+let circles: Circle[] = [new Circle(15,true, "Jimmy"), 
+                        new Circle(22, true, "Frank"),
+                        new Circle(3, false, "Alex") ];
+
+for(let i : number = 0; i< circles.length; i++){
+    let cir = circles[i];
+    console.log(cir);
+}
