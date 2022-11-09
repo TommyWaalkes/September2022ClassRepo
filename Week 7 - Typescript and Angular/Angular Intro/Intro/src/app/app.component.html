@@ -1,0 +1,32 @@
+<p>Hello World</p>
+<!--By default I get access to ALL functions and variable in my component class-->
+<!--To display a proptery from component controller use {{varName}}-->
+<p>Number: {{num}}</p>
+
+<p>Movie: {{m}}</p>
+
+<p>Title: {{m.title}}</p>
+
+<p>Id: {{m.id}}</p>
+<p>Run Time: {{m.runTime}}</p>
+<p>Genre: {{m.genre}}</p>
+
+<!--Before the HTML is displayed, angular does a pass on the HTML and processes any Angular markup it sees-->
+
+<!--This is angulars version of a foreach loop, but only for views-->
+<!--it will print a div and its content for each movie in our array-->
+<!--CSS can be done through sheets, and tends to be used per the view, angular pushes you towards lots of single use CSS-->
+<div style="border: solid 3px black;" *ngFor="let mov of movies; index as i">
+  <br/>
+  <p>index: {{i}}</p>
+  <p>Title: {{mov.title}}</p>
+  <p>Genre: {{mov.genre}}</p>
+  <br/>
+</div>
+
+<p>Filter Movies by Genre</p>
+<input type="text" id="movieGenre" />
+
+<button (click)="FilterMovies()">Filter</button>
+
+<button (click)="Reset()">Reset Filter</button>
