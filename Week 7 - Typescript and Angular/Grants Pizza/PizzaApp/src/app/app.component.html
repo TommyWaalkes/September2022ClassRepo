@@ -1,0 +1,23 @@
+<!--The ngfor should make a table row for each item in our items array-->
+<h2>{{heading}}</h2>
+<table>
+    <tr>
+        <th>Item</th>
+        <th>Price</th>
+        <th>Category</th>
+    </tr>
+    <tr *ngFor="let item of items">
+        <td>{{item.item}}</td>
+        <td>{{item.price}}</td>
+        <td>{{item.category}}</td>
+    </tr>
+
+</table>
+
+<p>Search by Category</p>
+<input type="text" id="cat" />
+
+<button (click)="getByCategory()">Filter by category</button>
+
+<button (click)="reset()">Reset</button>
+
