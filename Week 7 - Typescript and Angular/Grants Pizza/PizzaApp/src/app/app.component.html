@@ -5,11 +5,14 @@
         <th>Item</th>
         <th>Price</th>
         <th>Category</th>
+        <th>Delete</th>
     </tr>
-    <tr *ngFor="let item of items">
+    <tr *ngFor="let item of items;index as i">
         <td>{{item.item}}</td>
         <td>{{item.price}}</td>
         <td>{{item.category}}</td>
+        <!--I can now auto generate a delete button for each item in my array-->
+        <td><app-delete-item [existingItems]="items" [indexToDelete]="i" ></app-delete-item></td>
     </tr>
 
 </table>
@@ -21,3 +24,12 @@
 
 <button (click)="reset()">Reset</button>
 
+<!--This is how we reference another component-->
+<app-hello-world></app-hello-world>
+
+<!--existing items is the name of the variable in our add item component 
+    the value is the array coming from the app component, I am feeding that array into add item
+-->
+<app-add-item [existingItems]="items"></app-add-item>
+
+<app-update-form [existingItems]="items"></app-update-form>

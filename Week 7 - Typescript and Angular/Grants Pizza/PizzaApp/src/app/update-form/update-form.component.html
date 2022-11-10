@@ -1,0 +1,14 @@
+<p>Select Item to update by Id</p>
+<input id="index" type="number" min="0" max="existingItems.Length -1"/>
+<button (click)="SelectItemToUpdate()">Select Item to update</button>
+
+<p>Item</p>
+<input type="text" value="{{itemToUpdate.item}}" id="ItemU"/>
+
+<p>Price</p>
+<input type="text" value="{{itemToUpdate.price}}" id="PriceU"/>
+
+<p>Category</p>
+<input type="text" value="{{itemToUpdate.category}}" id="CategoryU"/>
+
+<button (click)="UpdateItem()">Update {{itemToUpdate.item}}</button>
