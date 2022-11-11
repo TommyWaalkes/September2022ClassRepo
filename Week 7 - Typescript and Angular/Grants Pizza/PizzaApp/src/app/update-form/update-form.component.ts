@@ -11,7 +11,7 @@ export class UpdateFormComponent implements OnInit {
   constructor() { }
   @Input() existingItems: MenuItem[] = [];
   itemToUpdate: MenuItem = {item:"", price:0, category:""};
-  index:number = -1;
+  index:number = 0;
   ngOnInit(): void {
   }
 
