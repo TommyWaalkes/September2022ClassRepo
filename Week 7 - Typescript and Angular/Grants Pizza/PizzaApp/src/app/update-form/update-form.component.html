@@ -1,15 +1,33 @@
 <p>Select Item to update by Id</p>
+
+<!--This binds the index property from the TS file to this form 
+    when a property is binded, any changes on the front-end get passed to backend automatically and vice versa
+    this removes the need to pull things out of input field via DOM manipulation
+-->
 <input  [(ngModel)]="index" id="index" type="number" min="0" max="existingItems.Length -1"/>
 <button (click)="SelectItemToUpdate()">Select Item to update</button>
+<!--If nothing is selected to update I want to hide our inputs-->
 
-<p>Item</p>
-<input type="text"  [(ngModel)]="itemToUpdate.item"  id="ItemU"/>
+<!--Ng if takes in a javascript conditional, then if it resolves to true, it will display the HTML it is attached to-->
+<div *ngIf="itemToUpdate.item !='' ">
+    <p>Item</p>
+    <input type="text"  [(ngModel)]="itemToUpdate.item"  id="ItemU"/>
 
-<p>Price</p>
-<input type="text" [(ngModel)]="itemToUpdate.price" id="PriceU"/>
+    <!--We put these next to each other since they all check the same condition-->
+    <p *ngIf="itemToUpdate.price < 0" [ngStyle]="{'color': 'red'}">Price - price cannot be below $0</p>
 
-<p>Category</p>
-<input type="text" [(ngModel)]="itemToUpdate.category" id="CategoryU"/>
+    <p *ngIf="itemToUpdate.price >= 100" [ngStyle]="{ 'color': 'green' }" >Price - you are big money</p>
 
-<!--With ngmodel this isn't needed anymore-->
+    <p *ngIf="itemToUpdate.price >= 0 && itemToUpdate.price < 100 ">Price</p>
+
+
+    <!--If price is negative, show an error message and change the P to be red-->
+    <input type="number" [(ngModel)]="itemToUpdate.price" id="PriceU"/>
+
+    <p>Category</p>
+    <input type="text" [(ngModel)]="itemToUpdate.category" id="CategoryU"/>
+</div>
+<!--   -->
+
+   <!--With ngmodel this isn't needed anymore-->
 <!-- <button (click)="UpdateItem()">Update {{itemToUpdate.item}}</button> -->
