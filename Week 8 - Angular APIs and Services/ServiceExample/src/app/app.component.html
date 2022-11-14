@@ -1,3 +1,13 @@
 <p>Randomly Generated Number</p>
 <p>{{output}}</p>
 <button (click)="UpdateOutput()">Re-Roll Number</button>
+
+<p>Search Pokemon by Name</p>
+<input type="text" [(ngModel)]="searchName"/>
+<button (click)="SearchPokemonByName(searchName)">Search</button>
+
+<div *ngFor="let p of resultPokemon">
+  <p>Name: {{p.name}}</p>
+  <p>Id: {{p.id}}</p>
+
+</div>
