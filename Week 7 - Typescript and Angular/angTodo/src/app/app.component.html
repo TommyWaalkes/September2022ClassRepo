@@ -1,0 +1,6 @@
+<div *ngFor="let todo of myTodos;index as i">
+
+  <p>Task {{ todo.task }}</p>
+  <p>Completed {{ todo.completed }}</p>
+  <button (click)="CompleteTodo(i)" *ngIf="!todo.completed">Complete</button>
+</div>
