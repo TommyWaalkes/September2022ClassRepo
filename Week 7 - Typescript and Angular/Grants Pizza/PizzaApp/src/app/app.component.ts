@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { AddService } from './add.service';
 import { MenuItem } from './MenuItem';
 
 @Component({
@@ -15,6 +16,14 @@ export class AppComponent {
 
   heading:string = "Menu Items";
   title = 'PizzaApp';
+
+  constructor(private add: AddService){
+
+  }
+
+  UseService(){
+    this.add.HelloWorld();
+  }
 
   getByCategory( ) : MenuItem[]{
     //To refer to something in the same class in a JS object 
