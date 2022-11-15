@@ -4,3 +4,5 @@
 <input type="text" [(ngModel)]="searchTitle"/>
 
 <button (click)="SearchMovies(searchTitle)">Search for {{searchTitle}}</button>
+
+<app-search-results [results]="results"></app-search-results>

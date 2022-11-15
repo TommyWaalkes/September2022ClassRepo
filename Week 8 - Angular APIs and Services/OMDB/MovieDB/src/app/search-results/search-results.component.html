@@ -1,1 +1,9 @@
-<p>search-results works!</p>
+<div *ngFor="let s of results" >
+   <div *ngFor="let search of s.Search; index as i" style="border: solid 3px black; margin:10px;">
+        <p>Title: {{search.Title}}</p>
+        <p>Year: {{search.Year}}</p>
+        <img src="{{search.Poster}}"/>
+        <button (click)="DisplayDetails(search, i)" >Display Details</button>
+        <app-movie-details class="display" id="{{i}}" [displayMovie]="movieToDisplay"></app-movie-details>
+   </div>
+</div>
