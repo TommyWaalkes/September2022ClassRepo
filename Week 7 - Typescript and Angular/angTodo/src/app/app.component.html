@@ -1,6 +1,14 @@
 <div *ngFor="let todo of myTodos;index as i">
 
-  <p>Task {{ todo.task }}</p>
+  <p [ngClass]="todo.completed ? 'completedTask':''">Task {{ todo.task }} <button (click)="DeleteToDo(i)">X</button></p>
   <p>Completed {{ todo.completed }}</p>
+  <input *ngIf="todo.isEditing" type="text" id="EditTask" [(ngModel)]="todo.task"/>
+  <button *ngIf="!todo.isEditing" (click)="EditToDo(i)">Edit</button>
+  <button *ngIf="todo.isEditing" (click)="EditToDo(i)">Done Editing!</button>
+
   <button (click)="CompleteTodo(i)" *ngIf="!todo.completed">Complete</button>
 </div>
+
+<h2>Add Task</h2>
+<input type="text" id="AddInput"/>
+<button (click)="AddToDo()">Add new Task</button>
