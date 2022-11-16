@@ -1,0 +1,12 @@
+<!--This is how angular handle navigation menus-->
+<!--Each route value needs a / infront of it so the controller doesnt mistake the value for a variable of some kind 
+it lets it know that we're dealing with routes-->
+<a [routerLink]="['/home']">Home</a>
+<br/>
+<a [routerLink]="['/about']"> About</a>
+<br/>
+<a [routerLink]="['/contact']">Contact</a>
+<br/>
+
+<!--Any time I click on an above link, it swaps in the related component-->
+<router-outlet></router-outlet>
