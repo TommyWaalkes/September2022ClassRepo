@@ -1,0 +1,23 @@
+/* You can add global styles to this file, and also import other style files */
+
+
+.border{
+    border: solid 5px black;
+}
+
+.centerElement{
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+}
+
+.roundedEdge{
+    border-radius: 5px;
+}
+
+.stickyMenu{
+    position: fixed;
+    z-index: 100;
+    top:0px;
+    left: 25%;
+}
