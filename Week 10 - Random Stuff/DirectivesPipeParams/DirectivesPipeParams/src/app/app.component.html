@@ -1,0 +1,29 @@
+<p ngClass="fontColor1">Hello world!</p>
+
+<p [ngClass]="{fontColor1: fontColor === 'purple', 
+fontColor2: fontColor=== 'yellow'
+}"
+[ngStyle]="styles">Hello world!</p>
+<!-- -->
+<p>Type in a color</p>
+
+<input [(ngModel)]="fontColor" type="text"/>
+<p>{{fontColor==="yellow"}}</p>
+
+<p>Todays Date</p>
+<p>{{today | date}}</p>
+
+
+<p>Normal: {{fontColor}}</p>
+<p>Upper Case: {{fontColor | uppercase}}</p>
+<p>Lower Case: {{fontColor | lowercase}}</p>
+
+
+<p>Money: {{money | currency}}</p>
+
+<p>Percentage {{percentage | percent }}</p>
+
+
+<p>-------------------------------------------------------------------------</p>
+
+<router-outlet></router-outlet>
