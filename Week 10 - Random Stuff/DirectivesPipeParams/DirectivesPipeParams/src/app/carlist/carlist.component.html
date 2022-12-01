@@ -1,3 +1,4 @@
 <div *ngFor="let c of cars">
-    <p>{{c.make}} {{c.model}}</p>
+    <a [routerLink]="['/cardetails/', c.id]"  ><p>{{c.make}} {{c.model}}</p></a>
 </div>
+<!-- [queryParams]="{id: c.id}" -->
