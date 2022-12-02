@@ -74,6 +74,94 @@ namespace EntityRelationships.Controllers
                 return error;
             }
         }
+        [HttpPut("UpdateStudent/")]
+        //This overrides what was in the database with values from the new object, old values will be lost 
+        //so be careful with update it is not reversible
+        public Student UpdateStudent( Student student)
+        {
+            db.Students.Update(student);
+            db.SaveChanges();
+
+            return student;
+        }
+
+        //To pass in a full object, you need to put it in the body of the HTTP request
+        //In Angular, in your service, when you call http.put(URL, model); 
+        [HttpPost("CreateStudent/{teacherId}")]
+        //We return a string so we can return a message as to wheter the add worked correctly
+        public string CreateStudent(Student student, int teacherId)
+        {
+            try
+            {
+                AddTeacherToStudent(teacherId, student);
+                db.Students.Add(student);
+                db.SaveChanges();
+
+                Student personWithId = db.Students.Where(s =>s.FName == student.FName && s.LName == student.LName).First();
+                CreateIdCard(personWithId.Id);
+
+                return $"Student {student.LName} successfully added to the database"; 
+            }
+            catch(Exception ex)
+            {
+                return $"Could not add student to database. Error Details: {ex.Message}  {ex.StackTrace}";
+            }
+        }
+
+        //This doesn't exist as an API endpoint, it's mainly is for the other endpoints to call
+        //In older version of the API controller you could create non-endpoint methods, 
+        //but it seems in this newest version only endpoint methods are allowed
+        [HttpPut("AddTeacherToStudent/{teacherId}")]
+        public string AddTeacherToStudent(int teacherId, Student student)
+        {
+            List<Teacher> teachers = db.Teachers.ToList();
+
+            if(teachers.Count(t=> t.Id == teacherId) > 0)
+            {
+                student.TeacherId = teacherId;
+                return "Teacher Successfully tied to a student";
+            }
+            else
+            {
+                return $"No teacher at {teacherId}";
+            }
+        }
+
+        [HttpPost("MakeIdCard/{studentId}")]
+        public string CreateIdCard(int studentId)
+        {
+            try
+            {
+                IdCard idCard = new IdCard();
+
+                idCard.StudentId = studentId;
+
+                db.IdCards.Add(idCard);
+                db.SaveChanges();
+                return $"Idcard with student id: {studentId} was succesfully added";
+            }
+            catch(Exception ex)
+            {
+                return $"Could not add IdCard to database. Error Details: {ex.Message}  {ex.StackTrace}";
+            }
+        }
+
+        [HttpPost("CreateStudentGrade/student={studentId}/grade={gradeId}/subject={subject}")]
+        public StudentGrade CreateStudentGrade(int studentId, int gradeId, string subject)
+        {
+            Student s = db.Students.Find(studentId);
+            Grade g = db.Grades.Find(gradeId);
+
+            StudentGrade studentGrade = new StudentGrade();
+            studentGrade.StudentId = studentId;
+            studentGrade.GradeId = gradeId;
+            studentGrade.Subject = subject;
+
+            db.StudentGrades.Add(studentGrade);
+            db.SaveChanges();
+
+            return studentGrade;
+        }
 
         [HttpGet("Teachers")]
         public List<Teacher> GetTeachers()
