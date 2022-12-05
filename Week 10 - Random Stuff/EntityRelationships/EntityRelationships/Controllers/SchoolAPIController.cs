@@ -79,10 +79,87 @@ namespace EntityRelationships.Controllers
         //so be careful with update it is not reversible
         public Student UpdateStudent( Student student)
         {
-            db.Students.Update(student);
-            db.SaveChanges();
+            List<Teacher> teachers = db.Teachers.ToList();
+            int? tid = student.TeacherId;
+            List<Teacher> filteredTeachers = teachers.Where(t => t.Id == tid).ToList();
+
+            //Main wrinkle with updates is validating your foreign keys exist in the other tables 
+            //Process looks the same no matter the relationship
+            if (filteredTeachers.Count > 0)
+            {
+                db.Students.Update(student);
+                db.SaveChanges();
+            }
+            else
+            {
+                student.FName = $"Invalid teacher id. No teacher found with id {tid}, entry not modified";
+            }
 
             return student;
+        }
+
+        [HttpDelete("DeleteStudent/{id}")]
+
+        public string DeleteStudent(int id)
+        {
+            try
+            {
+                //in one to one, the student should only appear once in the table. 
+                List<IdCard> matchingCards = db.IdCards.Where(c => c.StudentId == id).ToList();
+                if(matchingCards.Count > 0)
+                {
+                    db.IdCards.Remove(matchingCards.First());
+                }
+
+                //Keep in mind in many to many the student may appear in the overlap table more than once 
+                List<StudentGrade> matchingGrades = db.StudentGrades.Where(sg => sg.StudentId == id).ToList();
+                if(matchingGrades.Count > 0)
+                {
+                    foreach(StudentGrade g in matchingGrades)
+                    {
+                        db.StudentGrades.Remove(g);
+                    }
+                }
+
+
+                Student s = db.Students.Find(id);
+                db.Students.Remove(s);
+                db.SaveChanges();
+                return $"Student at id {id} was deleted";
+            }
+            catch (Exception e)
+            {
+                return $"ERROR: {e.Message}, {e.InnerException}, {e.StackTrace}";
+            }
+        }
+
+        [HttpDelete("DeleteTeacher/{id}")]
+        public string DeleteTeacher(int id)
+        {
+            try
+            {
+                //What you do depends on what you want for the dependant table rows, you may update to another teacher 
+                //You may delete them, or you may set their teacherId to null, it'll be a judgement what needs to happen
+               List<Student> filteredStudents = db.Students.Where(s => s.TeacherId== id).ToList();
+
+                foreach(Student student in filteredStudents)
+                {
+                    //You need to address the fact that a teacherId will no longer be valid
+                    student.TeacherId = null;
+                    db.Students.Update(student);
+                }
+                
+                Teacher t = db.Teachers.Find(id);
+
+                db.Teachers.Remove(t);
+                db.SaveChanges();
+                return $"Teacher at id {id} was deleted";
+            }
+            catch (Exception e)
+            {
+                return $"ERROR: {e.Message}, {e.InnerException}, {e.StackTrace}";
+            }
+
         }
 
         //To pass in a full object, you need to put it in the body of the HTTP request
